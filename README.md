@@ -34,16 +34,18 @@
 ### SORT 
 ##### **URL** : /{table_name}/sort/{field}
 ##### **URL** : /{table_name}/sort/{field1}&{field2}
-![image](https://user-images.githubusercontent.com/63099899/202987644-6657bb0e-7e81-4337-998b-0f47e5b274fd.png)
 
  - `GET`  : Returns all data arranged according to the fields table_name
+ ![image](https://user-images.githubusercontent.com/63099899/202987644-6657bb0e-7e81-4337-998b-0f47e5b274fd.png)
+
  ![image](https://user-images.githubusercontent.com/63099899/202986659-7c1edef5-025f-4134-9cb6-1e82cd1294b5.png)
 
 ### SEARCH
 ##### **URL** : /{table_name}/search/{field}={value}
  -  `GET`  : Returns all data has field in table_name = value
-### Analysis
  ![image](https://user-images.githubusercontent.com/63099899/202986571-2a630ca9-7ac0-4973-9ae8-e3e87fb2466f.png)
+
+### Analysis
 
   
 ##### **URL** : /{table_name}/analysis/{field}
