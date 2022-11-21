@@ -5,6 +5,7 @@
  [Mysql script from wiki](https://en.wikiversity.org/wiki/Database_Examples/Northwind/MySQL)
 
 ## API
+#### CRUD ,SORT, SEARCH, Analysis
 ### PARAMETERS: 
  - {table_name}: categories , customers , employees , orders , orderdetails , products , suppliers
  - {field} : example fields of customers {CustomerID}, {CustomerName}, {ContactName}, {Address}, {City}, {PostalCode}, {Country}
