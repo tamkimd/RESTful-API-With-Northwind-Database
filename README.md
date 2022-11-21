@@ -31,4 +31,6 @@
   
 ##### **URL:** : /{table_name}/analysis/{field}
  - `GET`  : count the field in table_name . Return data and base64 image
+![image](https://user-images.githubusercontent.com/63099899/202986344-c9da8210-a34c-49b6-a3a3-e1a4917d0e16.png)
+
   
