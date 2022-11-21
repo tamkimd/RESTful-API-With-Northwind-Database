@@ -10,8 +10,7 @@
  - {field} : example fields of customers {CustomerID}, {CustomerName}, {ContactName}, {Address}, {City}, {PostalCode}, {Country}
  - {value} : value of field
  - {id} : id field
- ### Function:
- #### CRUD all tables
+### CRUD all tables
 ##### **URL** : /{table_name}/
  - `GET`  : return all data in  table_name
   ![image](https://user-images.githubusercontent.com/63099899/202987741-cce6f293-4e71-4adf-9094-429aceb32852.png)
@@ -32,7 +31,7 @@
  - `DELETE` : Delete a now with id ={id} in table_name
  ![image](https://user-images.githubusercontent.com/63099899/202986955-27233d28-6c87-4f44-8f32-400f59907307.png)
 
-   #### SORT 
+### SORT 
 ##### **URL** : /{table_name}/sort/{field}
 ##### **URL** : /{table_name}/sort/{field1}&{field2}
 ![image](https://user-images.githubusercontent.com/63099899/202987644-6657bb0e-7e81-4337-998b-0f47e5b274fd.png)
@@ -40,10 +39,10 @@
  - `GET`  : Returns all data arranged according to the fields table_name
  ![image](https://user-images.githubusercontent.com/63099899/202986659-7c1edef5-025f-4134-9cb6-1e82cd1294b5.png)
 
-   #### SEARCH
+### SEARCH
 ##### **URL** : /{table_name}/search/{field}={value}
  -  `GET`  : Returns all data has field in table_name = value
-  #### Analysis
+### Analysis
  ![image](https://user-images.githubusercontent.com/63099899/202986571-2a630ca9-7ac0-4973-9ae8-e3e87fb2466f.png)
 
   
