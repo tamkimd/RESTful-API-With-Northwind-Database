@@ -12,7 +12,7 @@ import mysql.connector
 db=mysql.connector.connect(user="root",password="uento123",host="localhost",database="northwind")
 cursor=db.cursor(dictionary=True,buffered=True)
 
-# get name field of table
+# get the field name of table
 tables=['categories','customers','employees','orders','orderdetails','products','suppliers']
 all_tables={} 
 for table in tables:
@@ -42,8 +42,6 @@ class All_rows(Resource):
         if table_name in tables:
             query="select * from northwind."+table_name +";"
             cursor.execute(query)
-
-            # rows=cursor.fetchall()
             name=cursor.fetchall()
             # print(values)
             jsonObj = json.dumps(name,  default=str)
