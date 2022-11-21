@@ -13,13 +13,13 @@
  ### Function:
  #### CRUD all tables
 **URL:** : /{table_name}/
-  `GET`  : return all data in  table_name
-   `POST` : insert row
+-   `GET`  : return all data in  table_name
+ -   `POST` : insert row
    **URL:** : /{table_name}/{id}/
-  `GET`  : return a row with id ={id} in table_name
-   `POST` : insert row
-   `PUT`: Update a now with id ={id} in table_name
-    `DELETE` : Delete a now with id ={id} in table_name
+-   `GET`  : return a row with id ={id} in table_name
+-    `POST` : insert row
+-    `PUT`: Update a now with id ={id} in table_name
+ -    `DELETE` : Delete a now with id ={id} in table_name
    #### SORT 
 **URL:** : /{table_name}/sort/{field}
     **URL:** : /{table_name}/sort/{field1}&{field2}
