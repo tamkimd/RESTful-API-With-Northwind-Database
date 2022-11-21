@@ -38,7 +38,7 @@
 
  - `GET`  : Returns all data arranged according to the fields of table_name
  ![image](https://user-images.githubusercontent.com/63099899/202987644-6657bb0e-7e81-4337-998b-0f47e5b274fd.png)
-
+ -
  ![image](https://user-images.githubusercontent.com/63099899/202986659-7c1edef5-025f-4134-9cb6-1e82cd1294b5.png)
 
 ### SEARCH
