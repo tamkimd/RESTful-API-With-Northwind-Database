@@ -12,23 +12,23 @@
  - {id} : id field
  ### Function:
  #### CRUD all tables
-##### **URL:** : /{table_name}/
+##### **URL** : /{table_name}/
  -`GET`  : return all data in  table_name
  - `POST` : insert row
-**URL:** : /{table_name}/{id}/
+##### **URL:** : /{table_name}/{id}/
  -`GET`  : return a row with id ={id} in table_name
  -`POST` : insert row
  -`PUT`: Update a now with id ={id} in table_name
  -`DELETE` : Delete a now with id ={id} in table_name
    #### SORT 
-**URL:** : /{table_name}/sort/{field}
-    **URL:** : /{table_name}/sort/{field1}&{field2}
+##### **URL** : /{table_name}/sort/{field}
+    **URL** : /{table_name}/sort/{field1}&{field2}
  -`GET`  : Returns all data arranged according to the fields table_name
    #### SEARCH
-   **URL:** : /{table_name}/search/{field}={value}
+##### **URL** : /{table_name}/search/{field}={value}
   `GET`  : Returns all data has field in table_name = value
   #### Analysis
   
-   **URL:** : /{table_name}/analysis/{field}
+##### **URL** : /{table_name}/analysis/{field}
   `GET`  : count the field in table_name . Return data and base64 image
   
