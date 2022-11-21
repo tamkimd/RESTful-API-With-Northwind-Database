@@ -1,11 +1,11 @@
-#  RESTful-API-With-Northwind-Database
+#  RESTful API Flask With Northwind Database
 
 ##  Northwind database schema 
 ![image](https://user-images.githubusercontent.com/63099899/202976369-5d4a9c36-8565-4b71-bd2e-a3117e764620.png)
  [Mysql script from wiki](https://en.wikiversity.org/wiki/Database_Examples/Northwind/MySQL)
 
 ## API
-#### CRUD ,SORT, SEARCH, Analysis
+#### CRUD ,SORT, SEARCH, ANALYSIS 
 ### PARAMETERS: 
  - {table_name}: categories , customers , employees , orders , orderdetails , products , suppliers
  - {field} : example fields of customers {CustomerID}, {CustomerName}, {ContactName}, {Address}, {City}, {PostalCode}, {Country}
@@ -36,17 +36,17 @@
 ##### **URL** : /{table_name}/sort/{field}
 ##### **URL** : /{table_name}/sort/{field1}&{field2}
 
- - `GET`  : Returns all data arranged according to the fields table_name
+ - `GET`  : Returns all data arranged according to the fields of table_name
  ![image](https://user-images.githubusercontent.com/63099899/202987644-6657bb0e-7e81-4337-998b-0f47e5b274fd.png)
 
  ![image](https://user-images.githubusercontent.com/63099899/202986659-7c1edef5-025f-4134-9cb6-1e82cd1294b5.png)
 
 ### SEARCH
 ##### **URL** : /{table_name}/search/{field}={value}
- -  `GET`  : Returns all data has field in table_name = value
+ -  `GET`  : Returns all data has field of table_name = value
  ![image](https://user-images.githubusercontent.com/63099899/202986571-2a630ca9-7ac0-4973-9ae8-e3e87fb2466f.png)
 
-### Analysis
+### ANALYSIS
 
   
 ##### **URL** : /{table_name}/analysis/{field}
